@@ -1,0 +1,113 @@
+body{
+    background: url(img/snowbackground.gif) no-repeat;
+    background-size: 100%;
+    
+
+}
+
+
+
+/*Sur sdey Block*/
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+
+svg {
+    display: block;
+    font: 10.5em 'Montserrat';
+    height: 100px;
+    margin: 0 auto;
+}
+
+.text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 5px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1){
+    stroke: #4D163D;
+	animation-delay: -1;
+}
+
+.text-copy:nth-child(2){
+	stroke: #840037;
+	animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+	stroke: #BD0034;
+	animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+	stroke: #BD0034;
+	animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+	stroke: #FDB731;
+	animation-delay: -5s;
+}
+
+@keyframes stroke-offset{
+	100% {stroke-dashoffset: -35%;}
+}
+
+
+
+/*Sur sdey Block*/
+
+
+/*Hey Getup*/
+
+.heyClass {
+  padding: 1em 5em;
+  font: normal 40px/50px 'Montserrat';
+  color: aliceblue;
+}
+
+}
+p {
+  height: 50px;
+  float: left;
+  margin-right: 0.3em;
+}
+b {
+font-family: 'Montserrat';
+  float: left;
+  overflow: hidden;
+  position: relative;
+  height: 50px;
+    width: 400px;
+    font-variant: 
+/*    background-color: black*/
+           color: blue;
+   -webkit-text-fill-color: red; /* Will override color (regardless of order) */
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+}
+span1 {
+    font-family: inherit
+ display: inline-block;
+color: red;
+/*    background-color: black;*/
+position: relative;
+white-space: nowrap;
+top: 0;
+left: 0;
+-webkit-animation: move 10s;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-delay: 1s;
+}
+
+@keyframes move {
+0%  { top: 0px; }
+20% { top: -50px; }
+40% { top: -100px; }
+60% { top: -150px; }
+80% { top: -200px; }
+}
