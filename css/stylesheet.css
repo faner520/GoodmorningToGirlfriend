@@ -1,6 +1,7 @@
 body{
     background: url(img/snowbackground.gif) no-repeat;
-    background-size: 100%;
+    background-size: cover
+
     
 
 }
@@ -65,16 +66,18 @@ svg {
 /*Hey Getup*/
 
 .heyClass {
-  padding: 1em 5em;
+  padding: 1em 0.3em;
   font: normal 40px/50px 'Montserrat';
   color: aliceblsue;
 }
+
+
 
 }
 p {
   height: 50px;
   float: left;
-  margin-right: 0.3em;
+  margin-right: 0.5em;
 }
 b {
 font-family: 'Montserrat';
